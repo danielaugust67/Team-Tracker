@@ -14,7 +14,7 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah di bawah ini.
 -   [Python](https://www.python.org/) (v3.10 atau lebih baru) & pip
 -   Database [PostgreSQL](https://www.postgresql.org/) atau database SQL lain yang didukung SQLAlchemy.
 
-### Backend
+## Backend
 ### 1. Setup Backend (FastAPI)
 
 ```bash
@@ -26,7 +26,7 @@ git clone [https://github.com/danielaugust67/Team-Tracker.git](https://github.co
 cd backend 
 ```
 
-# 2. Buat dan aktifkan virtual environment
+### 2. Buat dan aktifkan virtual environtment
 ```bash
 python -m venv venv
 ```
@@ -35,13 +35,13 @@ python -m venv venv
 venv/bin/activate  
 ```
 
-# 3. Install semua dependensi
+### 3. Install dependesi
 ```bash
 pip install -r requirements.txt
 ```
 
 
-# 4. Isi file .env dengan konfigurasi Anda
+### 4. Sesuaikan .env 
 ```bash
 # DATABASE_URL="postgresql://user:password@host:port/database_name"
 # SECRET_KEY="kunci_rahasia_jwt_anda_yang_sangat_panjang"
@@ -50,12 +50,12 @@ pip install -r requirements.txt
 ```
 
 
-# 5. Jalankan server backend
+### 5. Jalankan Server Backend
 ```bash
 uvicorn src.main:app --reload 
 ```
 
-### Frontend
+## Frontend
 ### 1. Setup React 
 ``` bash
 cd frontend
@@ -65,7 +65,7 @@ cd frontend
 ``` bash
 npm install
 ```
-# 4. Isi file .env dengan konfigurasi Anda
+### 4. Isi file .env dengan konfigurasi Anda
 ```bash
 # VITE_API_URL="your_backend_api"
 ```

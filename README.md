@@ -34,8 +34,9 @@ python -m venv venv
 ```bash
 venv/bin/activate  
 ```
-```bash
+
 # 3. Install semua dependensi
+```bash
 pip install -r requirements.txt
 ```
 

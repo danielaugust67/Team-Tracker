@@ -19,7 +19,7 @@ Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah di bawah ini.
 
 ```bash
 
-git clone [https://github.com/danielaugust67/Team-Tracker.git](https://github.com/danielaugust67/Team-Tracker.git)
+git clone https://github.com/danielaugust67/Team-Tracker.git
 ```
 
 ``` bash

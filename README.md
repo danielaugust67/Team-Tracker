@@ -49,8 +49,9 @@ pip install -r requirements.txt
 # ACCESS_TOKEN_EXPIRE_MINUTES=60
 ```
 
+
+# 5. Jalankan server backend
 ```bash
-# 7. Jalankan server backend
 uvicorn src.main:app --reload 
 ```
 
